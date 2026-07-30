@@ -74,9 +74,42 @@ Contém os recursos utilizados pela versão online da documentação, como folha
 É o ponto de entrada da documentação online. A sua principal função é apresentar o conteúdo das missões de forma organizada e proporcionar uma experiência de leitura mais agradável do que a simples navegação pelos ficheiros Markdown.
 
 
-## 📝 Estrutura dos capítulos
+## 📝 Estrutura das missões
 
-...
+Todas as missões da documentação seguem a mesma estrutura. O objetivo é manter a documentação consistente, facilitar a navegação e permitir que qualquer missão possa ser compreendida sem depender das restantes.
+
+Cada missão é composta pelas seguintes secções:
+
+### Resumo
+
+Apresenta uma visão geral da missão. Idealmente, deves conseguir compreender a arquitetura geral da Marvid lendo apenas os resumos de todas as missões. Se achares que algum resumo não cumpre esse objetivo, agradeço que mo digas. Afinal, se a documentação pode evoluir, ela também pode ser melhorada.
+
+E, já agora, se há uma coisa que gosto tanto quanto construir a Marvid, é falar sobre ela com pessoas interessadas.
+
+### Motivação
+
+Explica por que a missão existe. Esta secção descreve o problema, a necessidade ou a ideia que motivou a sua criação, sem entrar em detalhes da implementação.
+
+### Especificação
+
+É a parte principal da missão. Contém a definição oficial da arquitetura, do comportamento ou do componente documentado. Sempre que existir alguma divergência entre a especificação e outras secções da missão, a especificação representa o estado atual da Marvid.
+
+### Observações
+
+Reúne notas, exemplos, recomendações e outras informações que complementam a especificação, mas que não fazem parte da definição oficial.
+
+### Pendências
+
+Lista assuntos ainda em aberto. O objetivo desta secção é permitir que a documentação evolua naturalmente, sem obrigar que todas as decisões sejam tomadas antes do desenvolvimento.
+
+### Diário de Bordo
+
+Regista a evolução da missão sob a minha perspetiva pessoal. É o espaço onde ficam documentadas as minhas experiências, dificuldades, descobertas, mudanças de opinião, ideias abandonadas, pequenos desabafos e tudo aquilo que fez parte da jornada, mas que não pertence à especificação técnica.
+
+Podes sempre saltar esta secção. Afinal, nem toda a gente gosta de ler os lamentos de um programador.
+
+Resumindo, a **Especificação** documenta a arquitetura da Marvid. O **Diário de Bordo** documenta a minha experiência de a construir.
+
 
 ## 📏 Convenções
 
