@@ -152,13 +152,14 @@ As convenções existem para manter a organização do projeto e podem ser revis
 
 Esta documentação é um conjunto de documentos em evolução. À medida que o projeto cresce, novas ideias surgem, decisões são revistas e algumas abordagens podem deixar de fazer sentido.
 
-Para acompanhar estas mudanças, a documentação utiliza versionamento, permitindo identificar diferentes estados do projeto ao longo da sua história.
+Para acompanhar estas mudanças, a documentação utiliza o bom e velho versionamento, permitindo identificar diferentes estados do projeto ao longo da sua história.
 
 As alterações importantes devem preservar o contexto da decisão tomada, indicando o que mudou, por que mudou e qual o impacto dessa alteração.
 
 O versionamento da documentação acompanha as mudanças de código, funcionalidades, ideias, arquitetura e compreensão do próprio projeto.
 
-EM resumo. cada versão representa uma fase da Marvid, permitindo compreender onde o projeto está e o caminho que levou até esse ponto.
+Cada versão representa uma fase da Marvid, permitindo compreender onde o projeto está e o caminho que levou até esse ponto.
+
 
 
 ## 📂 Organização do repositório
