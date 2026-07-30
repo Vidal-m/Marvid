@@ -113,7 +113,40 @@ Resumindo, a **Especificação** documenta a arquitetura da Marvid. O **Diário 
 
 ## 📏 Convenções
 
-...
+Para manter a documentação organizada e consistente, foram definidas algumas convenções para os seus ficheiros e conteúdos.
+
+### Nomenclatura dos ficheiros
+
+Os ficheiros seguem o formato:
+
+```text
+<número>-<nome-da-missão>.md
+```
+
+Exemplo:
+
+```text
+01-filosofia.md
+02-visao-geral.md
+03-hierarquia.md
+```
+
+A numeração representa a ordem recomendada de leitura das missões, não uma relação de dependência entre elas.
+
+### Atualização
+
+A especificação representa sempre o estado atual do projeto. Alterações relevantes devem ser acompanhadas pelo respetivo registo no Diário de Bordo.
+
+### Estrutura
+
+Todas as missões seguem a estrutura definida na secção anterior. Esta organização permite separar a definição técnica dos registos pessoais associados ao desenvolvimento.
+
+### Princípio geral
+
+A documentação é escrita de forma clara, direta e suficientemente detalhada para preservar conhecimento sem criar complexidade desnecessária.
+
+As convenções existem para manter a organização do projeto e podem ser revistas sempre que deixarem de cumprir esse objetivo.
+
 
 ## 🌱 Versionamento
 
