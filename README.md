@@ -1,4 +1,4 @@
-# 🤖 Especificação da Arquitetura da Marvid
+# 🤖 Marvid - Especificação da Arquitetura
 
 ## 📖 Sobre o projeto
 
@@ -6,23 +6,21 @@ Olá!
 
 Antes de tudo, há uma coisa que deves saber: a Marvid é um protótipo de IA multiplataforma e multitarefa. Na pior das hipóteses, também pode ser considerada um projeto académico e um exercício de programação, mas isso está longe de resumir aquilo que ela representa para mim.
 
-Este repositório reúne a implementação e a especificação oficial da arquitetura da Marvid. Esta documentação descreve a implementação, as decisões arquiteturais e as motivações por trás de cada uma delas. O objetivo é servir como a principal referência para o desenvolvimento da Marvid, respondendo tanto ao **como** quanto ao **porquê** de cada decisão.
+Este repositório reúne a implementação e a especificação oficial da arquitetura da Marvid. Esta documentação descreve a implementação, as decisões arquiteturais e as motivações por trás dessas decisões. O objetivo é servir como principal referência para o desenvolvimento da Marvid, respondendo tanto ao **como** quanto ao **porquê** de cada decisão.
 
 A especificação é um documento progressivo. À medida que a Marvid evolui, esta documentação evolui com ela. Algumas ideias serão refinadas, outras serão substituídas e muitas ainda nem existem. E, por mim, está tudo bem. Evoluir é o principal objetivo deste projeto e o meu.
 
 Se estás aqui por curiosidade, espero que encontres algo interessante ou, no mínimo, uma leitura agradável. Se pretendes compreender ou contribuir para a Marvid, espero que este manual te sirva como uma referência clara, consistente e útil.
 
-
 ## 🎯 Objetivos
 
-A documentação da Marvid tem como principal objetivo servir de referência durante todo o ciclo de vida do projeto. Segundo os meus cálculos, isso vai levar o seu tempo... (muito tempo 😅).
+A documentação serve como referência durante todo o ciclo de vida do projeto. Segundo os meus cálculos, isso vai levar o seu tempo... (muito tempo 😅).
 
 Ao documentar a arquitetura, as decisões e as motivações por trás delas, pretende-se reduzir ambiguidades, preservar conhecimento e facilitar a evolução do sistema sem perder a visão original do projeto.
 
 Este manual também procura tornar o desenvolvimento mais organizado. Antes de implementar novas funcionalidades, estas devem ser pensadas, discutidas e, sempre que fizer sentido, especificadas.
 
 Por fim, esta documentação pretende tornar a Marvid compreensível para qualquer pessoa interessada no projeto, independentemente de ter acompanhado ou não a sua evolução desde o início.
-
 
 ## 🧭 Como utilizar esta documentação
 
@@ -36,43 +34,13 @@ As missões seguem uma estrutura comum composta por secções como **Resumo**, *
 
 Embora exista uma ordem recomendada de leitura, cada missão pode ser consultada individualmente, dependendo do assunto de interesse.
 
-
 ## 🏗️ Estrutura da documentação
 
 Se estiveres aqui uns meses ou até alguns anos depois de eu ter começado este projeto, é possível que encontres dezenas de missões distribuídas por vários ficheiros. Não te assustes. A documentação foi organizada para crescer juntamente com a Marvid.
 
-Para facilitar a navegação, o repositório separa a especificação técnica, a apresentação do projeto e os recursos utilizados pela documentação online. Além disso, os ficheiros e diretórios seguem uma convenção de nomenclatura simples e consistente, tornando mais fácil localizar qualquer conteúdo e acompanhar a sequência das missões.
+A documentação utiliza três componentes principais: as missões da especificação, os recursos da documentação online e o ponto de entrada da versão web.
 
-Atualmente, o repositório encontra-se organizado da seguinte forma:
-
-```text
-/
-├── Docs/         # Missões da especificação
-├── site/         # Recursos da documentação online
-├── index.html    # Página principal da documentação
-└── README.md     # Introdução e guia de utilização
-```
-
-### README.md
-
-É a porta de entrada do projeto. Apresenta a Marvid, explica os objetivos desta documentação e serve como guia para novos leitores e colaboradores.
-
-📍 É aqui que estás agora.
-
-### Docs/
-
-Contém todas as missões da especificação. Cada missão documenta um tema específico da arquitetura da Marvid e constitui um registo permanente da evolução desse tema ao longo do projeto.
-
-Os ficheiros seguem uma convenção de nomenclatura comum, apresentada mais adiante neste documento.
-
-### site/
-
-Contém os recursos utilizados pela versão online da documentação, como folhas de estilo, scripts, imagens e outros ficheiros auxiliares.
-
-### index.html
-
-É o ponto de entrada da documentação online. A sua principal função é apresentar o conteúdo das missões de forma organizada e proporcionar uma experiência de leitura mais agradável do que a simples navegação pelos ficheiros Markdown.
-
+A organização completa do repositório é apresentada na secção **📂 Organização do repositório**.
 
 ## 📝 Estrutura das missões
 
@@ -108,8 +76,7 @@ Regista a evolução da missão sob a minha perspetiva pessoal. É o espaço ond
 
 Podes sempre saltar esta secção. Afinal, nem toda a gente gosta de ler os lamentos de um programador.
 
-Resumindo, a **Especificação** documenta a arquitetura da Marvid. O **Diário de Bordo** documenta a minha experiência de a construir.
-
+Em resumo, a **Especificação** documenta a arquitetura da Marvid. O **Diário de Bordo** documenta a minha experiência de a construir.
 
 ## 📏 Convenções
 
@@ -147,7 +114,6 @@ A documentação é escrita de forma clara, direta e suficientemente detalhada p
 
 As convenções existem para manter a organização do projeto e podem ser revistas sempre que deixarem de cumprir esse objetivo.
 
-
 ## 🌱 Versionamento
 
 Esta documentação é um conjunto de documentos em evolução. À medida que o projeto cresce, novas ideias surgem, decisões são revistas e algumas abordagens podem deixar de fazer sentido.
@@ -158,8 +124,39 @@ As alterações importantes devem preservar o contexto da decisão tomada, indic
 
 O versionamento da documentação acompanha as mudanças de código, funcionalidades, ideias, arquitetura e compreensão do próprio projeto.
 
-Cada versão representa uma fase da Marvid, permitindo compreender onde o projeto está e o caminho que levou até esse ponto.
-
-
+Em resumo, cada versão representa uma fase da Marvid, permitindo compreender onde o projeto está e o caminho que levou até esse ponto.
 
 ## 📂 Organização do repositório
+
+O repositório separa o desenvolvimento do sistema, a documentação da arquitetura e os recursos utilizados para disponibilizar a documentação online.
+
+A estrutura principal é a seguinte:
+
+```text
+/
+├── Marvid/       # Código fonte e implementação do sistema
+├── Docs/         # Missões da especificação da arquitetura
+├── site/         # Recursos da documentação online
+├── index.html    # Página principal da documentação
+└── README.md     # Apresentação do projeto e guia inicial
+```
+
+### Marvid/
+
+Contém a implementação da Marvid. Este diretório representa o desenvolvimento prático do sistema e será organizado de acordo com a arquitetura definida nas missões.
+
+### Docs/
+
+Contém a documentação técnica da Marvid. Cada ficheiro representa uma missão específica e acompanha a evolução da arquitetura do projeto.
+
+### site/
+
+Contém os recursos utilizados para construir a versão online da documentação, incluindo scripts, estilos e outros ficheiros auxiliares.
+
+### index.html
+
+É o ponto de entrada da documentação publicada. Através dele, o conteúdo dos ficheiros de documentação é apresentado de forma organizada na versão web.
+
+### README.md
+
+É a porta de entrada do repositório. Apresenta a Marvid, explica a organização do projeto e orienta o leitor antes de entrar nos detalhes técnicos.
