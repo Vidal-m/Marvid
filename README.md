@@ -12,6 +12,7 @@ A especificação é um documento progressivo. À medida que a Marvid evolui, es
 
 Se estás aqui por curiosidade, espero que encontres algo interessante ou, no mínimo, uma leitura agradável. Se pretendes compreender ou contribuir para a Marvid, espero que este manual te sirva como uma referência clara, consistente e útil.
 
+
 ## 🎯 Objetivos
 
 A documentação da Marvid tem como principal objetivo servir de referência durante todo o ciclo de vida do projeto. Segundo os meus cálculos, isso vai levar o seu tempo... (muito tempo 😅).
@@ -25,7 +26,16 @@ Por fim, esta documentação pretende tornar a Marvid compreensível para qualqu
 
 ## 🧭 Como utilizar esta documentação
 
-...
+Como já foi mencionado, esta documentação foi organizada para acompanhar a evolução da Marvid desde a sua conceção até à sua implementação.
+
+O conteúdo principal foi dividido em **missões**. Na prática, as missões são os capítulos desta documentação, mas decidi chamá-las assim porque sim... e também porque representam etapas concretas da evolução da Marvid. Cada missão possui um objetivo próprio e contribui para a construção do projeto como um todo.
+
+As missões podem ser encontradas no diretório `Docs/` deste repositório ou através da página web oficial do projeto. A organização do repositório e a função de cada diretório são apresentadas na secção **🏗️ Estrutura da documentação**.
+
+As missões seguem uma estrutura comum composta por secções como **Resumo**, **Motivação**, **Especificação**, **Observações**, **Pendências** e **Diário de Bordo**. Nesta secção é apresentada apenas uma visão geral. A descrição completa da estrutura de cada missão encontra-se em **📝 Estrutura das missões**.
+
+Embora exista uma ordem recomendada de leitura, cada missão pode ser consultada individualmente, dependendo do assunto de interesse.
+
 
 ## 🏗️ Estrutura da documentação
 
