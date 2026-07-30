@@ -1,6 +1,6 @@
 # 🤖 Especificação da Arquitetura da Marvid
 
-## 📖 Sobre este documento
+## 📖 Sobre o projeto
 
 Olá!
 
@@ -14,7 +14,14 @@ Se estás aqui por curiosidade, espero que encontres algo interessante ou, no m�
 
 ## 🎯 Objetivos
 
-...
+A documentação da Marvid tem como principal objetivo servir de referência durante todo o ciclo de vida do projeto. Segundo os meus cálculos, isso vai levar o seu tempo... (muito tempo 😅).
+
+Ao documentar a arquitetura, as decisões e as motivações por trás delas, pretende-se reduzir ambiguidades, preservar conhecimento e facilitar a evolução do sistema sem perder a visão original do projeto.
+
+Este manual também procura tornar o desenvolvimento mais organizado. Antes de implementar novas funcionalidades, estas devem ser pensadas, discutidas e, sempre que fizer sentido, especificadas.
+
+Por fim, esta documentação pretende tornar a Marvid compreensível para qualquer pessoa interessada no projeto, independentemente de ter acompanhado ou não a sua evolução desde o início.
+
 
 ## 🧭 Como utilizar esta documentação
 
