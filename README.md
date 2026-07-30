@@ -39,7 +39,40 @@ Embora exista uma ordem recomendada de leitura, cada missão pode ser consultada
 
 ## 🏗️ Estrutura da documentação
 
-...
+Se estiveres aqui uns meses ou até alguns anos depois de eu ter começado este projeto, é possível que encontres dezenas de missões distribuídas por vários ficheiros. Não te assustes. A documentação foi organizada para crescer juntamente com a Marvid.
+
+Para facilitar a navegação, o repositório separa a especificação técnica, a apresentação do projeto e os recursos utilizados pela documentação online. Além disso, os ficheiros e diretórios seguem uma convenção de nomenclatura simples e consistente, tornando mais fácil localizar qualquer conteúdo e acompanhar a sequência das missões.
+
+Atualmente, o repositório encontra-se organizado da seguinte forma:
+
+```text
+/
+├── Docs/         # Missões da especificação
+├── site/         # Recursos da documentação online
+├── index.html    # Página principal da documentação
+└── README.md     # Introdução e guia de utilização
+```
+
+### README.md
+
+É a porta de entrada do projeto. Apresenta a Marvid, explica os objetivos desta documentação e serve como guia para novos leitores e colaboradores.
+
+📍 É aqui que estás agora.
+
+### Docs/
+
+Contém todas as missões da especificação. Cada missão documenta um tema específico da arquitetura da Marvid e constitui um registo permanente da evolução desse tema ao longo do projeto.
+
+Os ficheiros seguem uma convenção de nomenclatura comum, apresentada mais adiante neste documento.
+
+### site/
+
+Contém os recursos utilizados pela versão online da documentação, como folhas de estilo, scripts, imagens e outros ficheiros auxiliares.
+
+### index.html
+
+É o ponto de entrada da documentação online. A sua principal função é apresentar o conteúdo das missões de forma organizada e proporcionar uma experiência de leitura mais agradável do que a simples navegação pelos ficheiros Markdown.
+
 
 ## 📝 Estrutura dos capítulos
 
