@@ -8,7 +8,7 @@ Antes de tudo, há uma coisa que deves saber: a Marvid é um protótipo de IA mu
 
 Este repositório reúne a implementação e a especificação oficial da arquitetura da Marvid. Esta documentação descreve a implementação, as decisões arquiteturais e as motivações por trás dessas decisões. O objetivo é servir como principal referência para o desenvolvimento da Marvid, respondendo tanto ao **como** quanto ao **porquê** de cada decisão.
 
-A especificação é um documento progressivo. À medida que a Marvid evolui, esta documentação evolui com ela. Algumas ideias serão refinadas, outras serão substituídas e muitas ainda nem existem. E, por mim, está tudo bem. Evoluir é o principal objetivo deste projeto e o meu.
+À medida que a Marvid evolui, esta documentação evolui com ela. Algumas ideias serão refinadas, outras serão substituídas e muitas ainda nem existem. E, por mim, está tudo bem. Evoluir é o principal objetivo deste projeto e o meu.
 
 Se estás aqui por curiosidade, espero que encontres algo interessante ou, no mínimo, uma leitura agradável. Se pretendes compreender ou contribuir para a Marvid, espero que este manual te sirva como uma referência clara, consistente e útil.
 
@@ -28,9 +28,9 @@ Como já foi mencionado, esta documentação foi organizada para acompanhar a ev
 
 O conteúdo principal foi dividido em **missões**. Na prática, as missões são os capítulos desta documentação, mas decidi chamá-las assim porque sim... e também porque representam etapas concretas da evolução da Marvid. Cada missão possui um objetivo próprio e contribui para a construção do projeto como um todo.
 
-As missões podem ser encontradas no diretório `Docs/` deste repositório ou através da página web oficial do projeto. A organização do repositório e a função de cada diretório são apresentadas na secção **🏗️ Estrutura da documentação**.
+As missões podem ser encontradas no diretório `Docs/` deste repositório ou através da página web oficial do projeto `vidal-m.github.io/Marvid`. A organização do repositório e a função de cada diretório são apresentadas na secção **🏗️ Estrutura da documentação**.
 
-As missões seguem uma estrutura comum composta por secções como **Resumo**, **Motivação**, **Especificação**, **Observações**, **Pendências** e **Diário de Bordo**. Nesta secção é apresentada apenas uma visão geral. A descrição completa da estrutura de cada missão encontra-se em **📝 Estrutura das missões**.
+As missões seguem uma estrutura composta por secções como **Resumo**, **Motivação**, **Especificação**, **Observações**, **Pendências** e **Diário de Bordo**. Nesta secção é apresentada apenas uma visão geral. A descrição completa da estrutura de cada missão encontra-se em **📝 Estrutura das missões**.
 
 Embora exista uma ordem recomendada de leitura, cada missão pode ser consultada individualmente, dependendo do assunto de interesse.
 
